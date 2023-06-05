@@ -237,6 +237,12 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+/*  classe ajoutée */
+.menu__list_pancake{
+  display: block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
@@ -249,6 +255,10 @@ body {
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
+}
+/*  classe ajoutée */
+.menu__item_pancake{
+  width: 100%;
 }
 .menu_item_content {
   width: 45%;
